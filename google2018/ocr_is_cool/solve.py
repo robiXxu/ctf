@@ -8,8 +8,8 @@ import os
 
 
 argp = argparse.ArgumentParser()
-argp.add_argument("-i", "--image", required=True, help="path to image to be processed")
-argp.add_argument("-p", "--preprocess", type=str, default="thresh", help="type of preprocessing done ")
+argp.add_argument("-i", "--image", required=True, help="path to image")
+argp.add_argument("-p", "--preprocess", type=str, default="thresh", help="type of preprocessing")
 args = vars(argp.parse_args())
 
 image = cv2.imread(args["image"])
