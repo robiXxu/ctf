@@ -1,0 +1,3 @@
+CTF{ICanReadDis}
+
+Open with chrome and select Password block & copy :)
